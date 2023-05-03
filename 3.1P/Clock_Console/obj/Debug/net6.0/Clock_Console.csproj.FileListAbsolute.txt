@@ -1,0 +1,15 @@
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.csproj.AssemblyReference.cache
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.AssemblyInfoInputs.cache
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.AssemblyInfo.cs
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.csproj.CoreCompileInputs.cache
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\bin\Debug\net6.0\Clock_Console.exe
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\bin\Debug\net6.0\Clock_Console.deps.json
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\bin\Debug\net6.0\Clock_Console.runtimeconfig.json
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\bin\Debug\net6.0\Clock_Console.dll
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\bin\Debug\net6.0\Clock_Console.pdb
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.dll
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\refint\Clock_Console.dll
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.pdb
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\Clock_Console.genruntimeconfig.cache
+C:\Users\charl\Desktop\COS20007\3.1P\Clock_Console\obj\Debug\net6.0\ref\Clock_Console.dll

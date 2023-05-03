@@ -1,0 +1,15 @@
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.csproj.AssemblyReference.cache
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.GeneratedMSBuildEditorConfig.editorconfig
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.AssemblyInfoInputs.cache
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.AssemblyInfo.cs
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.csproj.CoreCompileInputs.cache
+C:\vscodefiles\cos20007\1.2p\bin\Debug\net7.0\1.2p.exe
+C:\vscodefiles\cos20007\1.2p\bin\Debug\net7.0\1.2p.deps.json
+C:\vscodefiles\cos20007\1.2p\bin\Debug\net7.0\1.2p.runtimeconfig.json
+C:\vscodefiles\cos20007\1.2p\bin\Debug\net7.0\1.2p.dll
+C:\vscodefiles\cos20007\1.2p\bin\Debug\net7.0\1.2p.pdb
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.dll
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\refint\1.2p.dll
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.pdb
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\1.2p.genruntimeconfig.cache
+C:\vscodefiles\cos20007\1.2p\obj\Debug\net7.0\ref\1.2p.dll

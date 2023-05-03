@@ -1,0 +1,15 @@
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\bin\Debug\net6.0\splashkit_test.exe
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\bin\Debug\net6.0\splashkit_test.deps.json
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\bin\Debug\net6.0\splashkit_test.runtimeconfig.json
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\bin\Debug\net6.0\splashkit_test.dll
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\bin\Debug\net6.0\splashkit_test.pdb
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.csproj.AssemblyReference.cache
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.AssemblyInfoInputs.cache
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.AssemblyInfo.cs
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.csproj.CoreCompileInputs.cache
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.dll
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\refint\splashkit_test.dll
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.pdb
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\splashkit_test.genruntimeconfig.cache
+C:\Users\charl\Desktop\COS20007\2.1p\splashkit_test\obj\Debug\net6.0\ref\splashkit_test.dll

@@ -1,0 +1,6 @@
+C:\Users\charl\Desktop\COS20007\5.2P\Iteration_2_tests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\Users\charl\Desktop\COS20007\5.2P\Iteration_2_tests\obj\Debug\net7.0\ItemTests.csproj.AssemblyReference.cache
+C:\Users\charl\Desktop\COS20007\5.2P\Iteration_2_tests\obj\Debug\net7.0\ItemTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\Desktop\COS20007\5.2P\Iteration_2_tests\obj\Debug\net7.0\ItemTests.AssemblyInfoInputs.cache
+C:\Users\charl\Desktop\COS20007\5.2P\Iteration_2_tests\obj\Debug\net7.0\ItemTests.AssemblyInfo.cs
+C:\Users\charl\Desktop\COS20007\5.2P\Iteration_2_tests\obj\Debug\net7.0\ItemTests.csproj.CoreCompileInputs.cache

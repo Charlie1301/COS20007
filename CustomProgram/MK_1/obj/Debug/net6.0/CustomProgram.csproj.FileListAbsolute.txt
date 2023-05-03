@@ -1,0 +1,15 @@
+C:\Users\charl\Desktop\COS20007\CustomProgram\bin\Debug\net6.0\CustomProgram.exe
+C:\Users\charl\Desktop\COS20007\CustomProgram\bin\Debug\net6.0\CustomProgram.deps.json
+C:\Users\charl\Desktop\COS20007\CustomProgram\bin\Debug\net6.0\CustomProgram.runtimeconfig.json
+C:\Users\charl\Desktop\COS20007\CustomProgram\bin\Debug\net6.0\CustomProgram.dll
+C:\Users\charl\Desktop\COS20007\CustomProgram\bin\Debug\net6.0\CustomProgram.pdb
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.csproj.AssemblyReference.cache
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.AssemblyInfoInputs.cache
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.AssemblyInfo.cs
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.csproj.CoreCompileInputs.cache
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.dll
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\refint\CustomProgram.dll
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.pdb
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\CustomProgram.genruntimeconfig.cache
+C:\Users\charl\Desktop\COS20007\CustomProgram\obj\Debug\net6.0\ref\CustomProgram.dll
