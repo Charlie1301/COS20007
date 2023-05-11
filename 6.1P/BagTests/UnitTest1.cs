@@ -7,123 +7,72 @@ namespace BagTests
        
 
         [Test]
-        public void LocatesItems()
+        public void BagLocatesItems()
         {
+            Bag test_bag = new Bag(new string[] { "id1", "id2" }, "test_bag_name", "test_bag_desc");
 
-            string[] bag_1_ids = new string[] { "id1", "id2" };
-
-            string bag_1_name = "bag_1_test_bag";
-
-            string bag_1_desc = "bag_1_test_desc";
-
-            Bag test_bag = new Bag(bag_1_ids, bag_1_name, bag_1_desc);
-
-            string[] item_1_ids = new string[] { "id8", "id9" };
-
-            string item_1_name = "item_1_test_name";
-
-            string item_1_desc = "item_1_test_desc";
-
-            Item test_item = new Item(item_1_ids, item_1_name, item_1_desc);
-
+            Item test_item = new Item(new string[] { "id3", "id4" }, "test_item_name", "test_item_desc");
 
             test_bag.Inventory.Put(test_item);
 
-            Assert.That(test_item == test_bag.Locate("id8"));
+            Assert.That(test_bag.Locate("id3") == test_item);
 
         }
 
         [Test]
 
-        public void LocatesItself()
+        public void BagLocatesItself()
         {
+            Bag test_bag = new Bag(new string[] { "id1", "id2" }, "test_bag_name", "test_bag_desc");
 
-            string[] bag_1_ids = new string[] { "id1", "id2" };
-
-            string bag_1_name = "bag_1_test_bag";
-
-            string bag_1_desc = "bag_1_test_desc";
-
-            Bag test_bag = new Bag(bag_1_ids, bag_1_name, bag_1_desc);
-
-
-            Assert.That(test_bag == test_bag.Locate("id1"));
-
+            Assert.That(test_bag.Locate("id1") == test_bag);
         }
 
         [Test]
 
-        public void Locatesnothing()
+        public void BagLocatesNothing()
         {
+            Bag test_bag = new Bag(new string[] { "id1", "id2" }, "test_bag_name", "test_bag_desc");
 
-            string[] bag_1_ids = new string[] { "id1", "id2" };
-
-            string bag_1_name = "bag_1_test_bag";
-
-            string bag_1_desc = "bag_1_test_desc";
-
-            Bag test_bag = new Bag(bag_1_ids, bag_1_name, bag_1_desc);
-
-
-            Assert.That(null == test_bag.Locate("id8"));
-
+            Assert.That(test_bag.Locate("nil") == new GameObject(new string[] { }, "nil", "nil"));
         }
 
         [Test]
 
-        public void FullDescription()
+        public void BagFullDescription()
         {
+            Bag test_bag = new Bag(new string[] { "id1", "id2" }, "test_bag_name", "test_bag_desc");
 
-            string[] bag_1_ids = new string[] { "id1", "id2" };
+            Item test_item = new Item(new string[] { "id3", "id4" }, "test_item_name", "test_item_desc");
 
-            string bag_1_name = "bag_1_test_bag";
-
-            string bag_1_desc = "bag_1_test_desc";
-
-            Bag test_bag = new Bag(bag_1_ids, bag_1_name, bag_1_desc);
-
-            string[] item_1_ids = new string[] { "id8", "id9" };
-
-            string item_1_name = "item_1_test_name";
-
-            string item_1_desc = "item_1_test_desc";
-
-            Item test_item = new Item(item_1_ids, item_1_name, item_1_desc);
-
-            test_bag.Inventory.Put(test_item);
-
-
-            Assert.That(test_bag.FullDescription() == "in the bag_1_test_bag you can see:\n   a item_1_test_name (id8)\n");
-
+            Assert.That(test_bag.FullDescription() == "In the test_bag_name you can see:\n   a test_item_name (id3)\n");
         }
 
         [Test]
 
         public void BagInBag()
         {
+            Bag test_bag_1 = new Bag(new string[] { "id1", "id2" }, "test_bag_name", "test_bag_desc");
 
-            string[] bag_1_ids = new string[] { "id1", "id2" };
+            Bag test_bag_2 = new Bag(new string[] { "id3", "id4" }, "test_bag_name", "test_bag_desc");
 
-            string bag_1_name = "bag_1_test_bag";
+            Item test_item_1 = new Item(new string[] { "id5", "id6" }, "test_item_name", "test_item_desc");
 
-            string bag_1_desc = "bag_1_test_desc";
+            Item test_item_2 = new Item(new string[] { "id7", "id8" }, "test_item_name", "test_item_desc");
 
-            Bag test_bag_1 = new Bag(bag_1_ids, bag_1_name, bag_1_desc);
+            test_bag_1.Inventory.Put(test_item_1);
 
-            string[] bag_2_ids = new string[] { "id3", "id4" };
-
-            string bag_2_name = "bag_2_test_bag";
-
-            string bag_2_desc = "bag_2_test_desc";
-
-            Bag test_bag_2 = new Bag(bag_2_ids, bag_2_name, bag_2_desc);
-
+            test_bag_2.Inventory.Put(test_item_2);
 
             test_bag_1.Inventory.Put(test_bag_2);
 
 
-            Assert.That(test_bag_2 == test_bag_1.Locate("id3"));
+            Assert.That(
+                (test_bag_1.Locate("id3") == test_bag_2) && 
+                (test_bag_1.Locate("id5") == test_item_1) && 
+                (!(test_bag_1.Locate("id7") == test_item_2)));
 
         }
+
     }
 }

@@ -8,11 +8,11 @@ namespace CustomProgram
         public Player(int y, string name) : base(y, name) { }
 
         // Move left - note movement for players is slower than AI to create a more even game experience
-        public void MoveLeft() { X -= 0.03; }
+        public override void MoveLeft(int x) { X -= 0.03; }
 
-        public void MoveRight() { X += 0.03; }
+        public override void MoveRight(int x) { X += 0.03; }
         // Reset functionality allows to quickly reset the bar each round
-        public void Reset(int y) { X = 350; Y = y; }
+        public override void Reset(int y) { X = 350; Y = y; }
 
     }
 }

@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayerTests", "..\PlayerTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryTests", "..\InventoryTests\InventoryTests.csproj", "{F270464F-3FFA-413F-A928-E6E1448DA692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagTests", "..\BagTests\BagTests.csproj", "{F3CECC5A-D86F-4F0D-84C1-3102E70116C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagTests", "..\BagTests\BagTests.csproj", "{67D4826F-4C06-45EA-B9B0-620B902F6302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{F270464F-3FFA-413F-A928-E6E1448DA692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F270464F-3FFA-413F-A928-E6E1448DA692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F270464F-3FFA-413F-A928-E6E1448DA692}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3CECC5A-D86F-4F0D-84C1-3102E70116C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3CECC5A-D86F-4F0D-84C1-3102E70116C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3CECC5A-D86F-4F0D-84C1-3102E70116C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3CECC5A-D86F-4F0D-84C1-3102E70116C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D4826F-4C06-45EA-B9B0-620B902F6302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D4826F-4C06-45EA-B9B0-620B902F6302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D4826F-4C06-45EA-B9B0-620B902F6302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D4826F-4C06-45EA-B9B0-620B902F6302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,7 +3,7 @@ using System;
 
 namespace CustomProgram
 {
-    internal class Bar
+    public abstract class Bar
     {
 
         private double _y;
@@ -34,7 +34,11 @@ namespace CustomProgram
 
         public Color Color { get { return _color; } set { _color = value; } }
 
-        public void Reset() { _score = 0; _x = 350; _color = Color.Black; }
+        public virtual void Reset(int y) { _score = 0; _x = 350; }
+
+        public abstract void MoveLeft(int x);
+
+        public abstract void MoveRight(int x);
 
     } 
 

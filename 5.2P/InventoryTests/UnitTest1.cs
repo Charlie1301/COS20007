@@ -12,7 +12,7 @@ namespace InventoryTests
 
             Inventory test_inventory = new Inventory();
 
-            var test_identifiers = new string[] { "id1", "id2", "id3" };
+            string[] test_identifiers = new string[] { "id1", "id2", "id3" };
 
             string test_name = "test_name";
 
@@ -39,7 +39,7 @@ namespace InventoryTests
 
             Inventory test_inventory = new Inventory();
 
-            var test_identifiers = new string[] { "id1", "id2", "id3" };
+            string[] test_identifiers = new string[] { "id1", "id2", "id3" };
 
             string test_name = "test_name";
 
@@ -70,7 +70,7 @@ namespace InventoryTests
 
 
 
-            var test_identifiers = new string[] { "id1", "id2", "id3" };
+            string[] test_identifiers = new string[] { "id1", "id2", "id3" };
 
             string test_name = "test_name";
 
@@ -111,7 +111,7 @@ namespace InventoryTests
 
 
 
-            var test_identifiers = new string[] { "id1", "id2", "id3" };
+            string[] test_identifiers = new string[] { "id1", "id2", "id3" };
 
             string test_name = "test_name";
 
@@ -147,7 +147,7 @@ namespace InventoryTests
 
         public void InventoryItemList()
         {
-            var test_identifiers = new string[] { "id1", "id2", "id3" };
+            string[] test_identifiers = new string[] { "id1", "id2", "id3" };
 
             string test_name = "test_name";
 

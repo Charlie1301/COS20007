@@ -9,7 +9,7 @@ namespace Iteration_2_tests
         public void Item_Identifiable()
         {
 
-            var test_identifiers = new string[] { "id1", "id2", "id3" };
+            string[] test_identifiers = new string[] { "id1", "id2", "id3" };
 
             string test_name = "test_item";
 
@@ -38,7 +38,7 @@ namespace Iteration_2_tests
         public void Item_ShortDescription()
         {
 
-            var test_identifiers = new string[] { "sword", "id2", "id3" };
+            string[] test_identifiers = new string[] { "sword", "id2", "id3" };
 
             string test_name = "bronze sword";
 
@@ -65,7 +65,7 @@ namespace Iteration_2_tests
         public void Item_FullDescription()
         {
 
-            var test_identifiers = new string[] { "id1", "id2", "id3" };
+            string[] test_identifiers = new string[] { "id1", "id2", "id3" };
 
             string test_name = "test_name";
 
@@ -74,7 +74,7 @@ namespace Iteration_2_tests
             Item test_item = new Item(test_identifiers, test_name, test_description);
 
 
-            string test_full_description = test_item.LongDescription;
+            string test_full_description = test_item.FullDescription();
 
             if (test_full_description == "test_description")
             {
@@ -85,7 +85,6 @@ namespace Iteration_2_tests
                 Assert.Fail();
             }
         }
-        +
-
+        
     }
 }

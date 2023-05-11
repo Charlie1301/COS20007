@@ -2,10 +2,10 @@
 
 namespace Iteration_2
 {
-    internal interface IHaveInventory
+    public interface IHaveInventory
     {
-
-        public GameObject Locate(string id) { }
+        public GameObject Locate(string id);
+        public string Name { get; }
 
     }
 }

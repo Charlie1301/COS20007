@@ -15,7 +15,7 @@ namespace PlayerTests
             string test_description = "test_description";
             Player test_player = new Player(test_name, test_description);
 
-            if (test_player.Locate("me", test_player) == test_player)
+            if (test_player.Locate("me") == test_player)
             {
                 Assert.Pass();
             }
@@ -38,7 +38,7 @@ namespace PlayerTests
 
             test_player.Inventory.Put(test_item);
 
-            if (test_player.Locate("id1", test_player) == test_item)
+            if (test_player.Locate("id1") == test_item)
             {
                 Assert.Pass();
             }
@@ -61,7 +61,7 @@ namespace PlayerTests
 
             test_player.Inventory.Put(test_item);
 
-            if (test_player.Locate("id3", test_player) == null)
+            if (test_player.Locate("id3") == null)
             {
                 Assert.Pass();
             }

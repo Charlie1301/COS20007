@@ -2,12 +2,13 @@
 
 namespace Iteration_2
 {
-    internal class Command : IdentifiableObject
+    public abstract class Command : IdentifiableObject
     {
 
         public Command(string[] ids) : base(ids) { }
 
-        public abstract string Execute(Player p, string[] text) { }
+
+        public abstract string Execute(Player p, string[] text);
 
     }
 }

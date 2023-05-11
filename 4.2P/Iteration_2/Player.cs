@@ -11,7 +11,7 @@ namespace Iteration_2 {
 
         public Player(string name, string description) : base(new string[] {"me", "Inventory"}, name, description) {}
 
-        public String FullDescription()
+        public override String FullDescription()
         {
             return $"You are {Name}, {ShortDescription}. You are carrying:/n{_inventory.ItemList}";
         }
@@ -21,16 +21,16 @@ namespace Iteration_2 {
             get { return _inventory; }
         }
 
-        public GameObject Locate(string check_id, Player self)
+        public GameObject Locate(string check_id)
         {
-            if (check_id == "me" || check_id == "inventory")
+            if (Are_You(check_id))
             {
-                return self;
+                return this;
 
             }
-            else if (self.Inventory.HasItem(check_id))
+            else if (this.Inventory.HasItem(check_id))
             {
-                return self.Inventory.Fetch(check_id);
+                return this.Inventory.Fetch(check_id);
 
             }
             else

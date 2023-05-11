@@ -8,16 +8,11 @@ namespace CustomProgram
         public Ai(string name) : base(10, name) { }
 
 
-        public void Movement(Ball ball)
-        {
+        public override void MoveLeft(int x) { if ((X + 50) > x) { X -= 0.05; } }
 
-            if ((X + 50) < ball.X) { X += 0.05; }
+        public override void MoveRight(int x) { if ((X + 50) < x) { X += 0.05; } }
 
-            if ((X + 50) > ball.X) { X -= 0.05; }
-
-        }
-
-        public void Reset()
+        public override void Reset(int y)
         {
 
             Y = 15;

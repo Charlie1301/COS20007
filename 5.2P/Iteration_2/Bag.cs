@@ -11,35 +11,30 @@ namespace Iteration_2
 
         public Bag(string[] ids, string name, string desc) : base(ids, name, desc) { }
 
-        public GameObject Locate(string id) {
+        public GameObject Locate(string id)
+        {
 
             if (Are_You(id))
             {
-                return new Bag(Identifiers.ToArray(), Name, LongDescription);
-            }
-            else
+                return this;
+            } else if (_inventory.HasItem(id))
             {
-
-                if (_inventory.HasItem(id))
-                {
-                    return _inventory.Fetch(id);
-                }
-                else
-                {
-                    return null;
-                }
-
+                return _inventory.Fetch(id);
+            } else 
+            {
+                return new GameObject(new string[] { }, "nil", "nil");
             }
 
+            
         }
 
-        public string FullDescription() {
-
-            return $"in the {Name} you can see:\n{_inventory.ItemList}";
-
+        public override string FullDescription()
+        {
+            return $"In the {Name} you can see:\n{_inventory.ItemList}";
         }
 
         public Inventory Inventory { get { return _inventory; } }
+
 
     }
 }

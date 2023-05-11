@@ -35,25 +35,19 @@ namespace Iteration_2 {
 
         public Item Take(string identifier) {
 
-            int index = 0;
-
-            int item_index = 0;
+            Item return_item = new Item(new string[] { }, "null", "null");
 
             foreach (Item item in _items)
             {
                 if (item.Are_You(identifier))
-                { 
-                    
-                    item_index = index;
+                {
+
+                    return_item = item;
+
+                    _items.Remove(item);
 
                 }
-
-                index++;
             }
-
-            Item return_item = _items[item_index];
-
-            _items.RemoveAt(item_index);
 
             return return_item;
 
@@ -61,21 +55,19 @@ namespace Iteration_2 {
 
         public Item Fetch(string identifier) {
 
-            int index = 0;
-
-            int item_index = 0;
+            Item return_item = new Item(new string[] { }, "null", "null");
 
             foreach (Item item in _items)
             {
                 if (item.Are_You(identifier))
                 {
-                    item_index= index;
+                    return_item = item;
                 }
 
-                index++;
+            
             }
 
-            return _items[item_index];
+            return return_item;
 
         }
 

@@ -21,8 +21,6 @@ namespace Iteration_2
             _identifiers.Add(new_identifier.ToLower());
         }
 
-        public List<string> Identifiers { get { return _identifiers; } }
-
         public string First_id
         {
 

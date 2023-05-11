@@ -19,9 +19,9 @@ namespace Iteration_2 {
 
         public String Name { get { return _name; } }
 
-        public string ShortDescription { get { return $"a {_name} ({Identifiers[0]})"; } }
+        public string ShortDescription { get { return $"a {_name} ({First_id})"; } }
 
-        public string LongDescription { get { return _description; } }
+        public virtual string FullDescription() { return _description; }
 
     }
 
